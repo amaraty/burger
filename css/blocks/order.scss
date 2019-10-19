@@ -1,0 +1,15 @@
+.order {
+    background: url('../img/order/bg-order.jpg') center center / cover no-repeat;
+    height: 100%;
+    position: relative;
+
+    &__title {
+        text-align: center;
+        color: $yellow;
+        font-family: "Gagalin-Regular";
+        font-size: rem(72px);
+        font-weight: 400;
+        line-height: rem(63.99px);
+        margin-bottom: rem(40px);
+    }
+}
